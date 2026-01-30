@@ -1,0 +1,2 @@
+text_type,target,correlation,p_value,train_size,test_size
+clean-results,citation,0.2226897641435366,1.3444025142327971e-05,1424,375

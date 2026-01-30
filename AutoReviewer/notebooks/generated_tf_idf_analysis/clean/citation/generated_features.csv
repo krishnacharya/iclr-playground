@@ -1,0 +1,16 @@
+0-0.25,0.25-0.5,0.5-0.75,0.75-1
+td,td,td,td
+td td,td td,td td,td td
+tr,tr,tr,tr
+mathbf,mathbf,mathbf,mathbf
+mathcal,mathcal,mathcal,tr td
+boldsymbol,td tr,tr td,td tr
+theta,tr td,td tr,2023
+tr td,left,boldsymbol,tr tr
+td tr,theta,theta,mathcal
+left,boldsymbol,2023,language
+tr tr,tr tr,tr tr,2022
+mathrm,mathrm,left,2021
+mathbb,2023,pmb,2024
+pmb,mathbb,policy,2020
+policy,2020,2021,mathrm

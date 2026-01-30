@@ -1,0 +1,35 @@
+name: iclr-dataset
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python>=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - requests
+  - pyarrow
+  - tqdm
+  - pip
+  - jupyter
+  - ipykernel
+  - pip:
+    - torch
+    - datasets
+    - transformers
+    - sentence-transformers
+    - openreview-py
+    - openTSNE
+    - seaborn
+    - glasbey
+    - memory-profiler
+    - watermark
+    - jupyter-black
+    - distro
+    - cohere
+    - openai
+    - tiktoken
+    - adapters

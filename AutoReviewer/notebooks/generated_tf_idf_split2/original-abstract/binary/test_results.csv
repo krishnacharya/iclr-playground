@@ -1,0 +1,2 @@
+text_type,target,accuracy,precision,recall,f1,train_size,test_size
+original-abstract,binary,0.6041285602299451,0.6178728070175439,0.5794344473007712,0.5980366144866012,15309,3827
