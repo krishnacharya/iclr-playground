@@ -1,5 +1,13 @@
 # Learning representations of learning representations
 
+We build on top of the following work:
+
+- **[berenslab/iclr-dataset](https://github.com/berenslab/iclr-dataset)**: Provides a complete scrape of ICLR submissions from OpenReview with metadata including titles, abstracts, authors, decisions, reviewer scores, and keyword-based labels. The dataset serves as a benchmark for embedding quality evaluation.
+
+- **[SachinKonan/AutoReviewer](https://github.com/SachinKonan/AutoReviewer)**: Extracts and processes ICLR papers and reviews from OpenReview. It downloads PDFs, converts them to markdown using MinerU, normalizes review content, and creates structured datasets for analysis.
+
+- **[skonan/iclr-reviews-2020-2026](https://huggingface.co/datasets/skonan/iclr-reviews-2020-2026)**: A Hugging Face dataset containing ICLR papers (2020-2026) with full paper content, extracted images, reviews, meta-reviews, and metadata for comprehensive analysis.
+
 The ICLR dataset is a complete scrape of ICLR submissions from OpenReview. The current version (26v1) contains 55,906 ICLR submissions from 2017 to 2026.
 
 ![ICLR dataset, SBERT embedding](/results/figures/iclr2026v1/embedding.png)
